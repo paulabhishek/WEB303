@@ -1,25 +1,40 @@
-<!doctype html>
-<!-- WEB303 Assignment 1 : jQuery -->
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<meta charset="utf-8"/>
-	<title>Gadget Calculator</title>
-	<link rel="stylesheet" href="main.css"/>
-	<script src="jquery.js"></script>
-	<script src="script.js"></script>
-	
+  <meta charset="utf-8"/>
+  <title>Welcome to Vecta Corp.</title>
+  <link href="css/styles.css" rel="stylesheet"/>
+  <script src="js/jquery.js"></script>
+  <script src="js/script.js"></script>
 </head>
+
 <body>
-	<h1>Gadget Calculator</h1>
-	<form >
-		<fieldset>
-			<label>Salary
-			<input type="text" id="salary" placeholder="Annual Salary" autofocus="autofocus"/></label>
-			<label>Percent
-			<input type="text" id="percent" placeholder="Percent to spend"/></label>
-		</fieldset>
-		<p>You can spend <span id="spend">$0</span> on gadgets this year.</p>
-		<p>Have fun!</p>
-	</form>
+  <section id="container">
+    <header></header>
+  
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="solutions.html">Solutions</a></li>
+        <li><a href="support.html">Support</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  
+    <section id="content">
+      <h2>Our Solutions</h2>
+      <p>Which Vecta Corp. solution are you interested in learning about?</p>
+      <a id="vprospect" href="#">vProspect 2.0</a> | 
+      <a id="vconvert" href="#">vConvert 2.0</a> | 
+      <a id="vretain" href="#">vRetain 1.0</a>
+      <br/>
+      <div id="solution"></div>
+    </section>
+  
+    <footer></footer>
+  </section>
+
+
 </body>
 </html>
