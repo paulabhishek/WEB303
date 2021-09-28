@@ -1,25 +1,22 @@
-/*
-	WEB 303
-	Starting file for Assignment 1 
-	{Abhishek Paul}
-*/
+// WEB303 Assignment 2
+// Your Name Here
+//Abhishek Paul
+
 $(document).ready(function() {
-$('#salary').on('change', function() {
-var salary = parseFloat($("#salary").val());
-console.log(salary);
+	$("#vprospect").click(function(){
+        $("#solution").load("prospect.html");
+		$("#solution").hide();
+		$("#solution").slideDown("slow");
+    });
+	$("#vconvert").click(function(){
+		$("#solution").load("convert.html");
+		$("#solution").hide();
+		$("#solution").slideDown("slow");		
+    });
+	$("#vretain").click(function(){
+		$("#solution").load("retain.html");
+		$("#solution").hide();
+		$("#solution").slideDown("slow");		
+    });        
 
-
-$('#percent').on('change', function() {
-var percent = parseFloat($("#percent").val());
-console.log(percent);
-
-var spent = salary * percent / 100;
-spent = spent.toFixed(2);
-console.log(spent);
-$('#spend').text('$' + spent);
 });
-});
-});
-
-
-
