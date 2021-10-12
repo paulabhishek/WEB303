@@ -1,6 +1,6 @@
 /*
     Assignment 4
-    {ABhishek Paul}
+    {Abhishek Paul}
 */
 
 $(document).ready(function(){
@@ -43,6 +43,7 @@ $(document).ready(function(){
         console.log( R * c );
         return ( R * c );        
         }
+
         else{
             $('#content').eq(0).html(`Welcome!`);
         }
