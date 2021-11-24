@@ -1,0 +1,62 @@
+{"cast":[
+	{
+		"name":"Emmy Rossum",
+		"age":"35",
+		"height": "1.73 m",
+		"spouse": "Sam Esmail"
+	},
+	{
+		"name":"Cameron Monaghan",
+		"age":"28",
+		"height": "1.73 m",
+		"spouse": "Sam Esmail"		
+	},
+	{
+		"name":"Ethan Cutkosky",
+		"age":"22",
+		"height": "1.65 m",
+		"spouse": "Never married"		
+	},
+	{
+		"name":"Emma Kenney",
+		"age":"22",
+		"height": "1.7 m",
+		"spouse": "Never married"		
+	},
+	{
+		"name":"Steve Howey",
+		"age":"44",
+		"height": "1.7 m",
+		"spouse": "Never married"			
+	},
+	{
+		"name":"Jeremy Allen White",
+		"age":"30",
+		"height": "1.7 m",
+		"spouse": "Addison Timlin"			
+	},
+	{
+		"name":"William H. Macy",
+		"age":"71",
+		"height": "1.75 m",
+		"spouse": "Felicity Huffman"			
+	},
+	{
+		"name":"Noel Fisher",
+		"age":"37",
+		"height": "1.7 m",
+		"spouse": "Layla Alizada"			
+	},
+	{
+		"name":"Shanola Hampton",
+		"age":"44",
+		"height": "1.65 m",
+		"spouse": "Daren Dukes"			
+	},
+	{
+		"name":"Laura Slade Wiggins",
+		"age":"33",
+		"height": "1.56 m",
+		"spouse": "Kyle Weishaar"			
+	}								
+]}
